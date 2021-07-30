@@ -45,6 +45,11 @@ Son aşamada ise oluşturulan LSTM modelinin her bir veri seti için doğruluk d
 
 ![image](https://user-images.githubusercontent.com/71662622/127621111-2f9f527f-49d6-4116-a508-d09c107053a8.png)
 
+Aşağıdaki şekilde Covid19 veri setinin doğruluk ve kayıp değer grafiği gösterilmiştir.
+
+![image](https://user-images.githubusercontent.com/71662622/127622546-a91a5108-6199-4535-bd15-12005570e967.png)
+
+
 # Sonuç
 
 Bu çalışmada Covid-19 sürecinde Twitter sosyal medya aracından atılan Türkçe tweetlerden duygu analizi çalışması yapılmıştır. Twitter’dan çekilen tweetler gerekli veri temizleme adımlarından geçirilip veri setinde en çok kullanılan kelimelere göre duygu sözlüğü oluşturulmuştur. Bu sözlükle beraber veri setindeki her bir satırın duygu sınıfı belirlenmiştir. Duygu sınıfları belirlendikten sonra veri setimiz hazır hale gelmiştir. Bu işlemlerden sonra LSTM modeli oluşturulmuştur. 5 farklı veri seti için model başarı çıktıları incelenmiş olup doğruluk oranları tablolarda gösterilmiştir.
