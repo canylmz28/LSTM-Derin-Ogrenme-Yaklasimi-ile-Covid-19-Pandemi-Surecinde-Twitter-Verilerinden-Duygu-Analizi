@@ -56,8 +56,7 @@ Bu çalışmada Covid-19 sürecinde Twitter sosyal medya aracından atılan Tür
 
 Sonuçlar incelendiği zaman oluşturduğumuz modelin genel olarak başarı yüzdesinin yüksek olduğunu söyleyebiliriz. Başarı oranları incelendiği zaman covid19 ve sokağa çıkma yasağı veri setlerinin diğer üç veri setine göre daha iyi bir başarı gösterdiği görülür. Bunun en büyük sebebi bu iki veri setinin boyutunun diğer veri setlerinin boyutuna göre daha fazla olmasıdır. 
 
-Modelin daha başarılı ve daha objektif bir sonuç vermesi için özellikle duygu sınıfı belirleme aşamasının titizlikle yapılması gerekmektedir. Bu çalışmada büyük bir duygu sözlüğü kullanılmamıştır. Ayrıca duygu sözlüğündeki kelimelerden birine sahip olmayan tweetler veri setinden çıkarılmıştır. Bu durum ise veri kaybına sebep olmaktadır. Duygu sınıfı etiketleme işlemleri daha titiz yapılırsa, daha fazla veri toplanırsa ve LSTM modelindeki katmanlar ve parametreler daha detaylı ayarlanırsa modelimiz daha yüksek başarı sağlayacaktır.
-
+Modelin daha başarılı ve daha objektif bir sonuç vermesi için özellikle duygu sınıfı belirleme aşamasının titizlikle yapılması gerekmektedir. Bu çalışmada büyük bir duygu sözlüğü kullanılmamıştır. Ayrıca duygu sözlüğündeki kelimelerden birine sahip olmayan tweetler veri setinden çıkarılmıştır. Bu durum ise veri kaybına sebep olmaktadır. Duygu sınıfı etiketleme işlemleri daha titiz yapılırsa, daha fazla veri toplanırsa ve LSTM modelindeki katmanlar ve parametreler daha detaylı ayarlanırsa modelimiz daha yüksek başarı sağlayacaktır. 
   
 
 
